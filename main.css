@@ -2,17 +2,18 @@
     text-align: center;
     font-family:'Microsoft YaHei';
     background: rgba(244,245,247,0);
-    margin-top: 120px;
+    margin-top: 180px;
 }
 .h1{
     color:#42526E;
-    font-size: 75px;
+    font-size: 82px;
 }
 .p{
     font-size: 38px;
 }
 .o{
-    font-size: 28px;
+    font-size: 36px;
+    margin-bottom: 80px;
 }
 .g{
     background: #0052CC;
@@ -23,23 +24,25 @@
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 5px;
+    color: white;
 
 }
 .l {
     color: #0052CC;
 }
 .h{
-    font-size: xx-large;
+    font-size:38px;
     color: #0052CC;
 
     float: left;
     margin: 0 1%;
+    margin-top: 10px;
 }
 .q{color: #0052CC;
     font-size: xx-large;
     float:right;
     margin: 0 1%;
-
+    margin-top: 20px;
 }
 .u{color: #0052CC;
     background:white;
@@ -47,21 +50,22 @@
     margin: 0 1%;
     font-size: xx-large;
     display: inline-block;
-    padding-bottom: 2px;
-    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 5px;
-    border:dashed;
+    border:solid;
     border-color: blue;
+
 }
 .w{ text-align: center;
     font-family:'Microsoft YaHei';
     background-color: rgba(253,253,254,0.33);
-    padding-top: 50px;
+    padding-top: 40px;
     border-bottom: rgba(254,254,255,0);
     margin-left: 100px;
-    margin-right: 350px;
+    margin-right: 250px;
 }
 .v{
     font-size: 60px;
@@ -70,8 +74,13 @@
     float: left;
     padding-top: 30px;
     margin-right: 100px;
-    margin-left: 400px;
+    margin-left: 300px;
 }
-
+@media only screen and (min-width: 1000px) and (max-width: 1366px){
+    body{zoom:75%}
+}
+@media only screen and (min-width: 1367px) and (max-width: 1600px){
+    body{zoom:85%}
+}
 
 

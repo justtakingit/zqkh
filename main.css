@@ -2,85 +2,82 @@
     text-align: center;
     font-family:'Microsoft YaHei';
     background: rgba(244,245,247,0);
-    margin-top: 180px;
+    margin-top: 82px;
+    transform: scale(1,0.98);
 }
 .h1{
     color:#42526E;
-    font-size: 82px;
+    font-size: 41px;
 }
 .p{
-    font-size: 38px;
+    font-size: 20px;
+    margin:6px;
 }
 .o{
-    font-size: 36px;
-    margin-bottom: 80px;
+    font-size: 18px;
+    margin-bottom: 28px;
 }
 .g{
     background: #0052CC;
-    font-size: 35px;
+    font-size: 17px;
     display: inline-block;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 5px;
+    padding-bottom: 12px;
+    padding-top:12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 3px;
     color: white;
-
+    margin-bottom: 30px;
 }
 .l {
     color: #0052CC;
 }
 .h{
-    font-size:38px;
+    font-size:18px;
     color: #0052CC;
-
     float: left;
-    margin: 0 1%;
+    margin: 0 1.5%;
     margin-top: 10px;
+    transform: scale(1.1,1);
 }
 .q{color: #0052CC;
-    font-size: xx-large;
+    font-size:18px;
     float:right;
     margin: 0 1%;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding-right: 18px;
 }
 .u{color: #0052CC;
     background:white;
     float:right;
-    margin: 0 1%;
-    font-size: xx-large;
+    font-size:medium;
     display: inline-block;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 5px;
+    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
     border:solid;
+    border-width: 1px;
     border-color: blue;
 
 }
 .w{ text-align: center;
     font-family:'Microsoft YaHei';
     background-color: rgba(253,253,254,0.33);
-    padding-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 7px;
     border-bottom: rgba(254,254,255,0);
-    margin-left: 100px;
-    margin-right: 250px;
+    margin-left: 60px;
+    margin-right: 115px;
 }
 .v{
-    font-size: 60px;
+    font-size: 30px;
     font-family:'Microsoft YaHei';
     color: #42526E;
     float: left;
-    padding-top: 30px;
-    margin-right: 100px;
-    margin-left: 300px;
+    padding-top: 18px;
+    margin-right: 60px;
+    margin-left: 108px;
 }
-@media only screen and (min-width: 1000px) and (max-width: 1366px){
-    body{zoom:75%}
-}
-@media only screen and (min-width: 1367px) and (max-width: 1600px){
-    body{zoom:85%}
-}
-
 
